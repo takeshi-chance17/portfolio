@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block customcss %}
+<link href="{% static 'product.css' %}" rel='stylesheet' >
+<link href="{% static 'reset.css' %}" rel='stylesheet' >
+<link href="{% static 'style.css' %}" rel='stylesheet' >
+
+{% endblock customcss %}
+
+
+
+{% block content %}
+<header class="site-header a">
+  <div class="top_image" style="background-image: url(static/ball.jpg);"></div>
+  <div class="top_wrapper">
+    <div class="top_message">
+        <h1 class="red-bold">転職活動中です！</h1>
+        <p>希望職種：バックエンドエンジニア</p>
+        <p>学習中言語：Ruby,Rails,Python,Go</p>
+        <p>希望勤務地：首都圏</p>
+        <p>希望年収：350万円/年 以上</p>
+        <h2>興味を持って頂きましたらご連絡ください！</h2>
+    </div>
+  </div>
+</header>
+
+
+<body>
+
+</body>
+{% endblock content %}
